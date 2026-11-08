@@ -1,0 +1,14 @@
+fastapi==0.141.1
+pydantic==2.13.4
+pandas==3.0.3
+numpy==2.5.1
+scipy==1.18.0
+scikit-learn==1.9.0
+networkx==3.6.1
+shap==0.54.1
+langgraph==1.2.11
+xgboost-cpu==3.4.1
+uvicorn==0.52.1
+python-multipart==0.0.32
+joblib==1.5.3
+vercel-blob==0.5.1

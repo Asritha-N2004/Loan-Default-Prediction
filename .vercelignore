@@ -1,0 +1,13 @@
+.git
+.env
+.env.*local
+runtime
+**/node_modules
+frontend/dist
+**/__pycache__
+**/.pytest_cache
+tests
+docs
+scripts
+frontend/src/*.test.tsx
+**/*.tsbuildinfo

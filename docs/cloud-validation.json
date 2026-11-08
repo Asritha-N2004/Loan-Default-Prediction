@@ -1,0 +1,86 @@
+{
+  "verified_at": "2026-11-08T15:52:56.690413+00:00",
+  "base_url": "https://causallens-loan-risk.vercel.app",
+  "health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "mode": "synthetic_research_demo",
+    "authentication": "account_session_cookie",
+    "persistence": "private_vercel_blob"
+  },
+  "checks": [
+    {
+      "method": "GET",
+      "path": "health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "auth/session",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "auth/register",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "workspace/initialize",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "data/datasets/2f0dac6c-bb2b-4c60-aed0-9cc4995d0a12",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "prediction/models",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "workspace/initialize",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "prediction/predict",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "agents/run",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "reports/generate",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "reports/94b7b72d-fc29-4c7f-bbc9-07e25bb1145c/export",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "auth/logout",
+      "status": 200
+    }
+  ],
+  "agents_completed": 15,
+  "shap_additivity_verified": true,
+  "workspace_isolation_verified": true,
+  "reconnection_preserves_records": true,
+  "account_registration_verified": true,
+  "cross_browser_login_verified": true,
+  "automatic_preparation_verified": true,
+  "repeat_preparation_reuses_models": true,
+  "synthetic_only": true,
+  "dataset_id": "2f0dac6c-bb2b-4c60-aed0-9cc4995d0a12",
+  "model_id": "01571663-7edc-47f8-9676-14d6325e2811",
+  "report_id": "94b7b72d-fc29-4c7f-bbc9-07e25bb1145c",
+  "logout_revocation_verified": true
+}
